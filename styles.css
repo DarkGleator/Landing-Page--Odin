@@ -18,6 +18,12 @@ body{
     background-color: #3882f6;
     width: 90px;
     margin:10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.button-up:hover{
+    background-color: #4b89ec;
 }
 
 .textcontainer{
