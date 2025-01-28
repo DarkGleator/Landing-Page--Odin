@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+
+.conteudo-nav{
+    background-color: #1f2937;
+}
+
+.button-up{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #3882f6;
+}
+.nav {
+    display: flex;
+    border:1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
