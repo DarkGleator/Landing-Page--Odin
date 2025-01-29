@@ -68,3 +68,25 @@ ul{
 li:hover{
     color: rgb(3, 3, 3);
 }
+
+.segundo{
+    color: #1f2937;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.subtext{
+    color: #1f2937;;
+}
+
+.container-images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-images img{
+    border-radius: 25px;
+}
