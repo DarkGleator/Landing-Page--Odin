@@ -39,6 +39,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .textcontainer h1{
@@ -55,6 +56,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 25px;
+    padding: 5px;
 }
 
 ul{
@@ -113,19 +115,69 @@ li:hover{
     align-items: center;
     margin: 50px 0 ;
     height: 300px;
+    flex-wrap: wrap;
 }
 
 .reduzido{
-    width: 550px;
+    max-width: 500px;
 }
 
-.inspiring h2{
+.inspiring i{
     color: #1f2937;
-    font-weight: 400;
+    font-weight: 200;
+    font-size: 22px;
 }
 
 .inspiring p {
     display: flex;
     justify-content: flex-end;
     color: #1f2937;
+
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.insidecall{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 90px;
+    width: 950px;
+    height: 150px;
+    background-color: rgb(79, 107, 167);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.calltobutton{
+    padding: 8px 10px ;
+    border-radius: 9px;
+    background-color: #3882f6;
+    width: 90px;
+    margin:10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.calltobutton:hover{
+    background-color: #4b89ec;
+}
+
+.insidecall-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
